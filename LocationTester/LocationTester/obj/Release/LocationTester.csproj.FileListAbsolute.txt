@@ -1,0 +1,12 @@
+C:\Users\chenk\source\repos\LocationTester\LocationTester\obj\Release\LocationTester.csproj.CoreCompileInputs.cache
+C:\Users\chenk\source\repos\LocationTester\LocationTester\bin\Release\LocationTester.exe.config
+C:\Users\chenk\source\repos\LocationTester\LocationTester\bin\Release\LocationTester.exe
+C:\Users\chenk\source\repos\LocationTester\LocationTester\bin\Release\LocationTester.pdb
+C:\Users\chenk\source\repos\LocationTester\LocationTester\obj\Release\LocationTester.exe
+C:\Users\chenk\source\repos\LocationTester\LocationTester\obj\Release\LocationTester.pdb
+D:\Dev\LocationTester\LocationTester\bin\Release\LocationTester.exe.config
+D:\Dev\LocationTester\LocationTester\bin\Release\LocationTester.exe
+D:\Dev\LocationTester\LocationTester\bin\Release\LocationTester.pdb
+D:\Dev\LocationTester\LocationTester\obj\Release\LocationTester.csproj.CoreCompileInputs.cache
+D:\Dev\LocationTester\LocationTester\obj\Release\LocationTester.exe
+D:\Dev\LocationTester\LocationTester\obj\Release\LocationTester.pdb

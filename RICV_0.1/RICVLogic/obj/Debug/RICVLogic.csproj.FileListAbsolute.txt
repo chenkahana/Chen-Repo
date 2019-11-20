@@ -1,0 +1,6 @@
+C:\Users\user\source\repos\RICV_0.1\RICVLogic\bin\Debug\RICVLogic.dll
+C:\Users\user\source\repos\RICV_0.1\RICVLogic\bin\Debug\RICVLogic.pdb
+C:\Users\user\source\repos\RICV_0.1\RICVLogic\obj\Debug\RICVLogic.csprojAssemblyReference.cache
+C:\Users\user\source\repos\RICV_0.1\RICVLogic\obj\Debug\RICVLogic.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\RICV_0.1\RICVLogic\obj\Debug\RICVLogic.dll
+C:\Users\user\source\repos\RICV_0.1\RICVLogic\obj\Debug\RICVLogic.pdb

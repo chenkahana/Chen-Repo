@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\Dll Validator\Dll Validator\bin\Debug\Dll Validator.exe.config
+C:\Users\user\source\repos\Dll Validator\Dll Validator\bin\Debug\Dll Validator.exe
+C:\Users\user\source\repos\Dll Validator\Dll Validator\bin\Debug\Dll Validator.pdb
+C:\Users\user\source\repos\Dll Validator\Dll Validator\obj\Debug\Dll Validator.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Dll Validator\Dll Validator\obj\Debug\Dll_Validator.DllValidator.resources
+C:\Users\user\source\repos\Dll Validator\Dll Validator\obj\Debug\Dll_Validator.Properties.Resources.resources
+C:\Users\user\source\repos\Dll Validator\Dll Validator\obj\Debug\Dll Validator.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Dll Validator\Dll Validator\obj\Debug\Dll Validator.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Dll Validator\Dll Validator\obj\Debug\Dll Validator.exe
+C:\Users\user\source\repos\Dll Validator\Dll Validator\obj\Debug\Dll Validator.pdb

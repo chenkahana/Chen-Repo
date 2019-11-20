@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration> 
+  
+    <backends>
+      <add name="SimServer" IP="192.168.0.110"/>
+      <add name="CGFx" IP="192.168.0.120"/>
+      <add name="SimHost" IP="192.168.0.100"/>        
+    </backends>
+    
+    <SimA>
+      <add name="Main-IOS" number="100A" IP="192.168.0.150" />
+      <add name="Secondary-IOS" number="101A" IP="192.168.0.151"/>
+      <add name="Trainee1" number="103A" IP="192.168.0.201" />
+      <add name="Trainee2" number="104A" IP="192.168.0.202" />
+      <add name="Trainee3" number="105A" IP="192.168.0.203"/>
+      <add name="Trainee4" number="106" IP="192.168.0.204"/>
+      <add name="Trainee5" number="107" IP="192.168.0.205" />
+      <add name="Trainee6" number="108" IP="192.168.0.206"/>
+      <add name="Trainee7" number="109" IP="192.168.0.207"/>
+      <add name="Trainee8" number="110" IP="192.168.0.208"/>
+    </SimA>
+
+    <SimB>
+      <add name="Main-IOS" number="100b" IP="192.168.0.150"/>
+      <add name="Secondary-IOS" number="101b" IP="192.168.0.151"/>
+      <add name="Trainee1" number="102b" IP="192.168.0.201"/>
+      <add name="Role Player1" number="103b" IP="192.168.0.202"/>
+      <add name="D-Trainee1" number="104b" IP="192.168.0.171"/>
+      <add name="D-Trainee2" number="105b" IP="192.168.0.172"/>
+    </SimB>
+
+
+    <SimC1>
+      <add name="Main-IOS" number="100c1" IP="192.168.0.172"/>
+      <add name="Secondery-IOS" number="101c1" IP="192.168.0.173"/>
+      <add name="Trainee1" number="102c1" IP="192.168.0.201"/>
+      <add name="Trainee2" number="103c1" IP="192.168.0.202"/>
+      <add name="Trainee3" number="104c1" IP="192.168.0.203"/>
+      <add name="Trainee4" number="105c1" IP="192.168.0.204"/>
+      <add name="Trainee5" number="106c1" IP="192.168.0.205"/>
+      <add name="Trainee6" number="107c1" IP="192.168.0.206"/>
+      <add name="Pilot" number="108c1" IP="192.168.0.207"/>
+      <add name="Role-Player 2" number="109c1" IP="192.168.0.208"/>
+      <add name="Role-Player 3" number="110c1" IP="192.168.0.209"/>
+    </SimC1>
+
+    <SimC2>
+      <add name="Main-IOS" number="100c1" IP="192.168.0.172"/>
+      <add name="Secondery-IOS" number="101c1" IP="192.168.0.173"/>
+      <add name="Trainee1" number="102c1" IP="192.168.0.201"/>
+      <add name="Trainee2" number="103c1" IP="192.168.0.202"/>
+      <add name="Trainee3" number="104c1" IP="192.168.0.203"/>
+      <add name="Trainee4" number="105c1" IP="192.168.0.204"/>
+      <add name="Trainee5" number="106c1" IP="192.168.0.205"/>
+      <add name="Trainee6" number="107c1" IP="192.168.0.206"/>
+      <add name="Pilot" number="108c1" IP="192.168.0.207"/>
+      <add name="Role-Player 2" number="109c1" IP="192.168.0.208"/>
+      <add name="Role-Player 3" number="110c1" IP="192.168.0.209"/>
+    </SimC2>
+
+    <SimD171>
+      <add name="Main-IOS" number="100d171" IP="192.168.0.150"/>
+      <add name="Secondery-IOS" number="101d171" IP="192.168.0.151"/>
+      <add name="Trainee1" number="102d171" IP="192.168.0.201"/>
+      <add name="Trainee2" number="103d171" IP="192.168.0.202"/>
+      <add name="Trainee3" number="104d171" IP="192.168.0.203"/>
+      <add name="Trainee4" number="105d171" IP="192.168.0.204"/>
+      <add name="Trainee5" number="106d171" IP="192.168.0.700"/>
+      <add name="Trainee6" number="107d171" IP="192.168.0.701"/>
+      <add name="Role-Player 1" number="108d171" IP="192.168.0.205"/>
+      <add name="Role-Player 2" number="109d171" IP="192.168.0.206"/>
+      <add name="Role-Player 3" number="110d171" IP="192.168.0.207"/>
+      <add name="Role-Player 4" number="111d171" IP="192.168.0.800"/>
+      <add name="Role-Player 5" number="112d171" IP="192.168.0.804"/>
+      <add name="Role-Player 6" number="113d171" IP="192.168.0.805"/>
+      <add name="D-Trainee1" number="114d171" IP="192.168.0.806"/>
+      <add name="D-Trainee2" number="115d171" IP="192.168.0.807"/>
+      <add name="D-Trainee3" number="116d171" IP="192.168.0.809"/>
+    </SimD171>
+  <MediaCenter>
+    <add name="mediaCenter" number="c:\TraineeData\MediaCenter\MediaCenter.dll"/>
+    <add name="com" number="c:\TraineeData\MediaCenter\com.dll"/>
+
+
+  </MediaCenter>
+
+    <SimD175>
+      <add name="Main-IOS" number="100d175" IP="192.168.0.151"/>
+      <add name="Secondery-IOS" number="101d175" IP="192.168.0.151"/>
+      <add name="Trainee1" number="102d175" IP="192.168.0.151"/>
+      <add name="Trainee2" number="103d175" IP="192.168.0.151"/>
+      <add name="Trainee3" number="104d175" IP="192.168.0.151"/>
+      <add name="Trainee4" number="105d175" IP="192.168.0.151"/>
+      <add name="Trainee5" number="106d175" IP="192.168.0.151"/>
+      <add name="Trainee6" number="107d175" IP="192.168.0.151"/>
+      <add name="Role-Player 1" number="108d175" IP="192.168.0.151"/>
+      <add name="Role-Player 2" number="109d175" IP="192.168.0.151"/>
+      <add name="Role-Player 3" number="110d175" IP="192.168.0.151"/>
+      <add name="Role-Player 4" number="111d175" IP="192.168.0.151"/>
+      <add name="Role-Player 5" number="112d175" IP="192.168.0.151"/>
+      <add name="Role-Player 6" number="113d175" IP="192.168.0.151"/>
+      <add name="D-Trainee1" number="114d175" IP="192.168.0.151"/>
+      <add name="D-Trainee2" number="115d175" IP="192.168.0.151"/>
+      <add name="D-Trainee3" number="116d175" IP="192.168.0.151"/>
+    </SimD175>
+
+</configuration>
+
+
+
+
+
+

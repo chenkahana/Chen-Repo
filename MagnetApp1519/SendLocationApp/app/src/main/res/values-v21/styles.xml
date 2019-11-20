@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.NoActionBar" parent="@style/Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorHint">@color/textColor</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/bagira</item>
+    </style>
+    <style name="AppTheme.button" parent="Widget.MaterialComponents.Button">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="strokeColor">@color/bagira</item>
+        <item name="strokeWidth">1.5dp</item>
+    </style>
+    <style name="AppTheme.buttonDisable" parent="Widget.MaterialComponents.Button">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="strokeColor">@color/buttonDisabled</item>
+        <item name="strokeWidth">1.5dp</item>
+    </style>
+    <style name="AppTheme.button2" parent="Widget.MaterialComponents.Button">
+        <item name="colorAccent">@color/bagira</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="strokeColor">@color/bagira</item>
+
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorHint">@color/textColor</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="user_name">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #E3FFFFFF
+        </item>
+
+    </style>
+
+</resources>

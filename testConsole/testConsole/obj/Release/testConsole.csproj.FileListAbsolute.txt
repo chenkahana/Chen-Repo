@@ -1,0 +1,6 @@
+C:\Users\user\source\repos\testConsole\testConsole\bin\Release\testConsole.exe.config
+C:\Users\user\source\repos\testConsole\testConsole\bin\Release\testConsole.exe
+C:\Users\user\source\repos\testConsole\testConsole\bin\Release\testConsole.pdb
+C:\Users\user\source\repos\testConsole\testConsole\obj\Release\testConsole.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\testConsole\testConsole\obj\Release\testConsole.exe
+C:\Users\user\source\repos\testConsole\testConsole\obj\Release\testConsole.pdb

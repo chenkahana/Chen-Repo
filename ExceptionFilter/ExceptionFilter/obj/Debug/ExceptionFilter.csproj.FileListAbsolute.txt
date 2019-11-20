@@ -1,0 +1,10 @@
+C:\Users\chenk\source\repos\ExceptionFilter\ExceptionFilter\bin\Debug\ExceptionFilter.exe.config
+C:\Users\chenk\source\repos\ExceptionFilter\ExceptionFilter\bin\Debug\ExceptionFilter.exe
+C:\Users\chenk\source\repos\ExceptionFilter\ExceptionFilter\bin\Debug\ExceptionFilter.pdb
+C:\Users\chenk\source\repos\ExceptionFilter\ExceptionFilter\obj\Debug\ExceptionFilter.ExceptionFilter.resources
+C:\Users\chenk\source\repos\ExceptionFilter\ExceptionFilter\obj\Debug\ExceptionFilter.Properties.Resources.resources
+C:\Users\chenk\source\repos\ExceptionFilter\ExceptionFilter\obj\Debug\ExceptionFilter.csproj.GenerateResource.cache
+C:\Users\chenk\source\repos\ExceptionFilter\ExceptionFilter\obj\Debug\ExceptionFilter.csproj.CoreCompileInputs.cache
+C:\Users\chenk\source\repos\ExceptionFilter\ExceptionFilter\obj\Debug\ExceptionFilter.exe
+C:\Users\chenk\source\repos\ExceptionFilter\ExceptionFilter\obj\Debug\ExceptionFilter.pdb
+C:\Users\chenk\source\repos\ExceptionFilter\ExceptionFilter\obj\Debug\ExceptionFilter.csprojAssemblyReference.cache

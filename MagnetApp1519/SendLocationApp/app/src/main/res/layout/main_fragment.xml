@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayoutFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="Fragments.MainFragment">
+
+    <FrameLayout
+        android:id="@+id/mainFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/topTextViewHome"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="#3A3C42"
+                android:gravity="center"
+                android:paddingStart="20sp"
+                android:text="Home"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5sp">
+
+                <LinearLayout
+                    android:layout_width="350sp"
+                    android:layout_height="82sp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical"
+                    android:padding="10sp">
+
+                    <TextView
+                        android:id="@+id/androidIdTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lineSpacingExtra="10sp"
+                        android:paddingStart="20sp"
+                        android:text="User Name: "
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/user_name"
+                        android:textSize="18sp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/androUniqueIdTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lineSpacingExtra="10sp"
+                        android:paddingStart="20sp"
+                        android:text="Unique ID: "
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/user_name"
+                        android:textSize="14sp"
+                        tools:ignore="RtlCompat" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mainLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5sp">
+
+                <LinearLayout
+                    android:layout_width="350sp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical"
+                    android:outlineAmbientShadowColor="@android:color/white">
+
+                    <ImageView
+                        android:id="@+id/connectionImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="60sp"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/ic_wifi_off"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/connectionTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Not Connected"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:layout_width="10sp"
+                        android:layout_height="20sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/getLocationButton"
+                        android:theme="@style/AppTheme.button"
+                        android:layout_width="170sp"
+                        android:layout_height="wrap_content"
+                        android:onClick="getLocation"
+                        android:text="Connect"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                         />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="10sp">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/fireButton"
+                        android:theme="@style/AppTheme.button2"
+                        android:layout_width="337sp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:onClick="fireNow"
+                        android:text="Fire Now"
+                        android:textAllCaps="false"
+                        android:textSize="16sp"
+                        tools:ignore="OnClick" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/postLocationButton"
+                        android:theme="@style/AppTheme.button"
+                        android:layout_width="337sp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:onClick="postLocation"
+                        android:text="Send Location"
+                        android:textAllCaps="false"
+                        android:textSize="16sp"
+                        tools:ignore="OnClick" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:gravity="center_horizontal|bottom"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="10sp">-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="80sp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:background="@color/cardview_shadow_start_color"-->
+            <!--android:gravity="center_horizontal|bottom"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="5sp">-->
+
+            <!--<Button-->
+            <!--android:id="@+id/resetButton"-->
+            <!--android:layout_width="100sp"-->
+            <!--android:layout_height="70sp"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:background="@drawable/roundedshapebottom"-->
+            <!--android:drawableTop="@drawable/ic_reset"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="resetSystem"-->
+            <!--android:text="Log Out"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@android:color/black" />-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="10sp"-->
+            <!--android:layout_height="10sp" />-->
+
+            <!--<Button-->
+            <!--android:id="@+id/settingsButton"-->
+            <!--android:layout_width="100sp"-->
+            <!--android:layout_height="70sp"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:background="@drawable/roundedshapebottom"-->
+            <!--android:drawableTop="@drawable/ic_settings"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="openSettings"-->
+            <!--android:padding="10sp"-->
+            <!--android:text="Settings"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@android:color/black" />-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="10dp"-->
+            <!--android:layout_height="10dp" />-->
+
+            <!--<Button-->
+            <!--android:id="@+id/userInfoButton"-->
+            <!--android:layout_width="100sp"-->
+            <!--android:layout_height="70sp"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:background="@drawable/roundedshapebottom"-->
+            <!--android:drawableTop="@drawable/ic_userinfo"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="openUserInfo"-->
+            <!--android:padding="10sp"-->
+            <!--android:text="User Info"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@android:color/black" />-->
+            <!--</LinearLayout>-->
+
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

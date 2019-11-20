@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="D:\Program Files (x86)\InstallShield\2019\Support\0409\buildreport.xsl"?>
+<BuildReport ProductName="CGFX + IG" ProductVersion="1.00.0000" Built="6-19-2019 10-53-42 AM" Config="Default Configuration" Media="Debug" Uncompressed="0.00 MB">
+  <Features>
+    <Feature Title="DefaultFeature">DefaultFeature</Feature>
+  </Features>
+  <Components>
+    <Component x64="32">DefaultComponent</Component>
+  </Components>
+  <Prerequisites />
+  <MergeModules />
+  <DynamicLinks />
+  <Files />
+</BuildReport>

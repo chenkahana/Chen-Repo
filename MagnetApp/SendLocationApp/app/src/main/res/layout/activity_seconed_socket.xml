@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seconedSocket"
+    tools:ignore="MissingConstraints"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+
+    <LinearLayout
+        android:id="@+id/secondLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:id="@+id/IPTextView"
+        android:layout_width="118dp"
+        android:layout_height="31dp"
+        android:text="IP Address"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <EditText
+        android:id="@+id/IPEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="IP Address"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+
+    <TextView
+        android:id="@+id/PortTextView"
+        android:layout_width="118dp"
+        android:layout_height="31dp"
+        android:text="Port"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <EditText
+        android:id="@+id/PortEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Port"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+
+    <TextView
+        android:id="@+id/intervalTextView"
+        android:layout_width="118dp"
+        android:layout_height="31dp"
+        android:text="Send Interval (mil)"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+
+    <EditText
+        android:id="@+id/intervalEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Intervals (mils)"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <TextView
+        android:id="@+id/metersTextView"
+        android:layout_width="118dp"
+        android:layout_height="31dp"
+        android:text="Send Distance (m)"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="234dp"
+        />
+
+    <EditText
+        android:id="@+id/metersEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Distance (m)"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="265dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/returnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Return"
+            tools:layout_editor_absoluteX="306dp"
+            tools:layout_editor_absoluteY="599dp"
+            android:gravity="center"
+            android:onClick="returnToMain"
+            android:textAllCaps="false"
+            android:background="@drawable/roundedshape"
+            android:drawableTop="@drawable/ic_back"/>
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/saveButton"
+            android:background="@drawable/roundedshape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            tools:layout_editor_absoluteX="306dp"
+            tools:layout_editor_absoluteY="599dp"
+            android:gravity="center"
+            android:onClick="save"
+            android:textAllCaps="false"
+            android:drawableTop="@drawable/ic_save"/>
+
+
+    </LinearLayout>
+</LinearLayout>

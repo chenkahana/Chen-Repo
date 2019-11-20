@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:paddingTop="10sp"
+    tools:context=".Fragments.UserInfo">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/surface"
+            android:gravity="center"
+            android:text="User Info"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            tools:ignore="RtlCompat"
+            android:paddingStart="20sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5sp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="@drawable/rectangle"
+                android:padding="5sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nameEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Name"
+                    android:inputType="textPersonName"
+                    android:padding="10sp"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor"
+                    android:backgroundTint="@color/tint2"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5sp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="@drawable/rectangle"
+                android:padding="5sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/userIdEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Device ID"
+                    android:inputType="textPersonName"
+                    android:padding="10sp"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor"
+                    android:backgroundTint="@color/tint2" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5sp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="@drawable/rectangle"
+                android:padding="5sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/entityNameEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Entity Name"
+                    android:inputType="textPersonName"
+                    android:padding="10sp"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor"
+                    android:backgroundTint="@color/tint2" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5sp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="@drawable/rectangle"
+                android:padding="5sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/entityDamageEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Entity Damage"
+                    android:inputType="textPersonName"
+                    android:padding="10sp"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor"
+                    android:backgroundTint="@color/tint2" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5sp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="@drawable/rectangle"
+                android:padding="5sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/entityMetIdEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="10sp"
+                    android:hint="Entity Met ID"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor"
+                    android:backgroundTint="@color/tint2" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

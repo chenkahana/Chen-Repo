@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\JFTES_Configuration\JFTES_Configuration\bin\Debug\JFTES_Configuration.exe.config
+C:\Users\user\source\repos\JFTES_Configuration\JFTES_Configuration\bin\Debug\JFTES_Configuration.exe
+C:\Users\user\source\repos\JFTES_Configuration\JFTES_Configuration\bin\Debug\JFTES_Configuration.pdb
+C:\Users\user\source\repos\JFTES_Configuration\JFTES_Configuration\obj\Debug\JFTES_Configuration.csprojAssemblyReference.cache
+C:\Users\user\source\repos\JFTES_Configuration\JFTES_Configuration\obj\Debug\JFTES_Configuration.configurator.resources
+C:\Users\user\source\repos\JFTES_Configuration\JFTES_Configuration\obj\Debug\JFTES_Configuration.Properties.Resources.resources
+C:\Users\user\source\repos\JFTES_Configuration\JFTES_Configuration\obj\Debug\JFTES_Configuration.csproj.GenerateResource.cache
+C:\Users\user\source\repos\JFTES_Configuration\JFTES_Configuration\obj\Debug\JFTES_Configuration.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\JFTES_Configuration\JFTES_Configuration\obj\Debug\JFTES_Configuration.exe
+C:\Users\user\source\repos\JFTES_Configuration\JFTES_Configuration\obj\Debug\JFTES_Configuration.pdb

@@ -1,0 +1,20 @@
+C:\Users\Roman's PC\source\repos\LocationTester\LocationTester\bin\Debug\LocationTester.exe.config
+C:\Users\Roman's PC\source\repos\LocationTester\LocationTester\bin\Debug\LocationTester.exe
+C:\Users\Roman's PC\source\repos\LocationTester\LocationTester\bin\Debug\LocationTester.pdb
+C:\Users\Roman's PC\source\repos\LocationTester\LocationTester\obj\Debug\LocationTester.csprojAssemblyReference.cache
+C:\Users\Roman's PC\source\repos\LocationTester\LocationTester\obj\Debug\LocationTester.csproj.CoreCompileInputs.cache
+C:\Users\Roman's PC\source\repos\LocationTester\LocationTester\obj\Debug\LocationTester.exe
+C:\Users\Roman's PC\source\repos\LocationTester\LocationTester\obj\Debug\LocationTester.pdb
+C:\Users\Roman's PC\source\repos\LocationTester\LocationTester\bin\Debug\NMEA.dll
+C:\Users\Roman's PC\source\repos\LocationTester\LocationTester\bin\Debug\NMEA.pdb
+C:\Users\Roman's PC\source\repos\LocationTester\LocationTester\obj\Debug\LocationTester.csproj.CopyComplete
+C:\Users\chenk\source\repos\LocationTester\LocationTester\obj\Debug\LocationTester.csprojAssemblyReference.cache
+C:\Users\chenk\source\repos\LocationTester\LocationTester\obj\Debug\LocationTester.csproj.CoreCompileInputs.cache
+C:\Users\chenk\source\repos\LocationTester\LocationTester\obj\Debug\LocationTester.exe
+C:\Users\chenk\source\repos\LocationTester\LocationTester\obj\Debug\LocationTester.pdb
+D:\Dev\LocationTester\LocationTester\bin\Debug\LocationTester.exe.config
+D:\Dev\LocationTester\LocationTester\bin\Debug\LocationTester.exe
+D:\Dev\LocationTester\LocationTester\bin\Debug\LocationTester.pdb
+D:\Dev\LocationTester\LocationTester\obj\Debug\LocationTester.csproj.CoreCompileInputs.cache
+D:\Dev\LocationTester\LocationTester\obj\Debug\LocationTester.exe
+D:\Dev\LocationTester\LocationTester\obj\Debug\LocationTester.pdb

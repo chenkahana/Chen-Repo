@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\xmlcreatetor\xmlcreatetor\bin\Debug\xmlcreatetor.exe.config
+C:\Users\user\source\repos\xmlcreatetor\xmlcreatetor\bin\Debug\xmlcreatetor.exe
+C:\Users\user\source\repos\xmlcreatetor\xmlcreatetor\bin\Debug\xmlcreatetor.pdb
+C:\Users\user\source\repos\xmlcreatetor\xmlcreatetor\obj\Debug\xmlcreatetor.csprojAssemblyReference.cache
+C:\Users\user\source\repos\xmlcreatetor\xmlcreatetor\obj\Debug\xmlcreatetor.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\xmlcreatetor\xmlcreatetor\obj\Debug\xmlcreatetor.exe
+C:\Users\user\source\repos\xmlcreatetor\xmlcreatetor\obj\Debug\xmlcreatetor.pdb

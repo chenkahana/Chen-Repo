@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Fragments.SecondSocket">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/headlineTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/surface"
+            android:gravity="center"
+            android:paddingStart="20sp"
+            android:text="Second Socket"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5sp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:background="@drawable/rectangle"
+                android:padding="5sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/IPEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/tint2"
+                    android:ems="10"
+
+                    android:hint="IP Address"
+                    android:inputType="text"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5sp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:background="@drawable/rectangle"
+                android:padding="5sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/PortEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/tint2"
+                    android:ems="10"
+                    android:hint="Port"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5sp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:background="@drawable/rectangle"
+                android:padding="5sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/intervalEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/tint2"
+                    android:ems="10"
+                    android:hint="Intervals (mils)"
+                    android:inputType="number"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5sp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:background="@drawable/rectangle"
+                android:padding="5sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/metersEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/tint2"
+                    android:ems="10"
+                    android:hint="Distance (m)"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end|center"
+            android:padding="10sp">
+            <!--<Button-->
+            <!--android:id="@+id/returnButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Return"-->
+            <!--android:background="@drawable/settings_buttons"-->
+            <!--android:onClick="returnToMain"-->
+            <!--android:textAllCaps="false"-->
+            <!--/>-->
+            <!--<ImageView-->
+            <!--android:layout_width="10sp"-->
+            <!--android:layout_height="wrap_content" />-->
+            <!--<Button-->
+            <!--android:id="@+id/backButton"-->
+            <!--android:background="@drawable/settings_buttons"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Back"-->
+            <!--android:textAllCaps="false" />-->
+            <!--<ImageView-->
+            <!--android:layout_width="10sp"-->
+            <!--android:layout_height="10sp" />-->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/saveButton"
+                android:theme="@style/AppTheme.button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:onClick="save2"
+                android:text="Save"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

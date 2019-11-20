@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\InstallerBuilderWithParameter\InstallerBuilderWithParameter\bin\Debug\InstallerBuilderWithParameter.exe.config
+C:\Users\user\source\repos\InstallerBuilderWithParameter\InstallerBuilderWithParameter\bin\Debug\InstallerBuilderWithParameter.exe
+C:\Users\user\source\repos\InstallerBuilderWithParameter\InstallerBuilderWithParameter\bin\Debug\InstallerBuilderWithParameter.pdb
+C:\Users\user\source\repos\InstallerBuilderWithParameter\InstallerBuilderWithParameter\obj\Debug\InstallerBuilderWithParameter.csprojAssemblyReference.cache
+C:\Users\user\source\repos\InstallerBuilderWithParameter\InstallerBuilderWithParameter\obj\Debug\InstallerBuilderWithParameter.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\InstallerBuilderWithParameter\InstallerBuilderWithParameter\obj\Debug\InstallerBuilderWithParameter.exe
+C:\Users\user\source\repos\InstallerBuilderWithParameter\InstallerBuilderWithParameter\obj\Debug\InstallerBuilderWithParameter.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E729F059-12D4-455F-A2A4-FDA8DD25E08A}") = "CGFX + IG", "Setup1\CGFX + IG.isproj", "{6B233062-9BA4-431E-9F51-28CE4E6EAAFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B233062-9BA4-431E-9F51-28CE4E6EAAFB}.Debug|Default.ActiveCfg = Debug
+		{6B233062-9BA4-431E-9F51-28CE4E6EAAFB}.Debug|Default.Build.0 = Debug
+		{6B233062-9BA4-431E-9F51-28CE4E6EAAFB}.Release|Default.ActiveCfg = Release
+		{6B233062-9BA4-431E-9F51-28CE4E6EAAFB}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88A13A55-9FFA-4908-A3B6-5EF993F2137B}
+	EndGlobalSection
+EndGlobal

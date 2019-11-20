@@ -1,0 +1,13 @@
+C:\Users\chenk\source\repos\WatchDog\WatchDog\bin\Release\WatchDog.exe.config
+C:\Users\chenk\source\repos\WatchDog\WatchDog\bin\Release\WatchDog.exe
+C:\Users\chenk\source\repos\WatchDog\WatchDog\bin\Release\WatchDog.pdb
+C:\Users\chenk\source\repos\WatchDog\WatchDog\obj\Release\WatchDog.csproj.CoreCompileInputs.cache
+C:\Users\chenk\source\repos\WatchDog\WatchDog\obj\Release\WatchDog.exe
+C:\Users\chenk\source\repos\WatchDog\WatchDog\obj\Release\WatchDog.pdb
+D:\Dev\WatchDog\WatchDog\bin\Release\WatchDog.exe.config
+D:\Dev\WatchDog\WatchDog\bin\Release\WatchDog.exe
+D:\Dev\WatchDog\WatchDog\bin\Release\WatchDog.pdb
+D:\Dev\WatchDog\WatchDog\obj\Release\WatchDog.csprojAssemblyReference.cache
+D:\Dev\WatchDog\WatchDog\obj\Release\WatchDog.csproj.CoreCompileInputs.cache
+D:\Dev\WatchDog\WatchDog\obj\Release\WatchDog.exe
+D:\Dev\WatchDog\WatchDog\obj\Release\WatchDog.pdb

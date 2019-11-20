@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\RelocatingAppConfigTest\RelocatingAppConfigTest\bin\Debug\RelocatingAppConfigTest.exe.config
+C:\Users\user\source\repos\RelocatingAppConfigTest\RelocatingAppConfigTest\bin\Debug\RelocatingAppConfigTest.exe
+C:\Users\user\source\repos\RelocatingAppConfigTest\RelocatingAppConfigTest\bin\Debug\RelocatingAppConfigTest.pdb
+C:\Users\user\source\repos\RelocatingAppConfigTest\RelocatingAppConfigTest\obj\Debug\RelocatingAppConfigTest.csprojAssemblyReference.cache
+C:\Users\user\source\repos\RelocatingAppConfigTest\RelocatingAppConfigTest\obj\Debug\RelocatingAppConfigTest.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\RelocatingAppConfigTest\RelocatingAppConfigTest\obj\Debug\RelocatingAppConfigTest.exe
+C:\Users\user\source\repos\RelocatingAppConfigTest\RelocatingAppConfigTest\obj\Debug\RelocatingAppConfigTest.pdb

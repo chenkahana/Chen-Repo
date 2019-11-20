@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\Desributer\Desributer\bin\Debug\Desributer.exe.config
+C:\Users\user\source\repos\Desributer\Desributer\bin\Debug\Desributer.exe
+C:\Users\user\source\repos\Desributer\Desributer\bin\Debug\Desributer.pdb
+C:\Users\user\source\repos\Desributer\Desributer\obj\Debug\Desributer.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Desributer\Desributer\obj\Debug\Desributer.Destributer.resources
+C:\Users\user\source\repos\Desributer\Desributer\obj\Debug\Desributer.Properties.Resources.resources
+C:\Users\user\source\repos\Desributer\Desributer\obj\Debug\Desributer.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Desributer\Desributer\obj\Debug\Desributer.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Desributer\Desributer\obj\Debug\Desributer.exe
+C:\Users\user\source\repos\Desributer\Desributer\obj\Debug\Desributer.pdb
